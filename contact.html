@@ -61,7 +61,7 @@
                                 </div>
                                 <div>
                                     <h4>ISO Compliance</h4>
-                                    <p>Full traceability and documentation provided for pharmaceutical and food-grade runs.</p>
+                                    <p>Full traceability and documentation provided for cosmetic and food-grade runs.</p>
                                 </div>
                             </div>
                             <div class="trust-point stagger-up delay-300">
@@ -69,8 +69,8 @@
                                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="17 8 12 3 7 8"/><line x1="12" x2="12" y1="3" y2="15"/></svg>
                                 </div>
                                 <div>
-                                    <h4>Global Shipping</h4>
-                                    <p>Optimized palletizing and logistics partnerships to ensure safe, cost-effective delivery.</p>
+                                    <h4>UAE-Wide Shipping</h4>
+                                    <p>Optimized palletizing and logistics partnerships to ensure safe, cost-effective delivery across the UAE.</p>
                                 </div>
                             </div>
                         </div>
@@ -80,7 +80,7 @@
                         <form action="#" method="POST" onsubmit="event.preventDefault(); alert('In a real environment, this would submit via an API endpoint.');">
                             <div class="form-group">
                                 <label for="name" class="form-label">Full Name / Company</label>
-                                <input type="text" id="name" name="name" class="form-control" placeholder="Acme Pharmaceuticals" required>
+                                <input type="text" id="name" name="name" class="form-control" placeholder="Acme Industries" required>
                             </div>
                             <div class="form-group">
                                 <label for="email" class="form-label">Work Email</label>
@@ -88,13 +88,13 @@
                             </div>
                             <div class="form-group">
                                 <label for="volume" class="form-label">Estimated Monthly Volume</label>
-                                <select id="volume" name="volume" class="form-control" required style="appearance: none;">
-                                    <option value="" disabled selected>Select volume range</option>
-                                    <option value="10k-50k">10,000 - 50,000 units</option>
-                                    <option value="50k-100k">50,000 - 100,000 units</option>
-                                    <option value="100k-500k">100,000 - 500,000 units</option>
-                                    <option value="500k+">500,000+ units</option>
-                                </select>
+                                <input type="text" id="volume" name="volume" list="volume-options" class="form-control" placeholder="Select or type custom volume..." required autocomplete="off">
+                                <datalist id="volume-options">
+                                    <option value="10,000 - 50,000 units"></option>
+                                    <option value="50,000 - 100,000 units"></option>
+                                    <option value="100,000 - 500,000 units"></option>
+                                    <option value="500,000+ units"></option>
+                                </datalist>
                             </div>
                             <div class="form-group">
                                 <label for="message" class="form-label">Project Details (Optional)</label>
@@ -117,7 +117,7 @@
             <div class="footer-grid">
                 <div class="footer-brand">
                     <img src="assets/clenvik-logo.png" alt="Clenvik Logo" height="40" style="margin-bottom: 16px;">
-                    <p>Engineering premium plastic packaging solutions for global enterprise clients since 2010.</p>
+                    <p>Engineering premium plastic packaging solutions for UAE enterprise clients since 2010.</p>
                 </div>
                 <div class="footer-links">
                     <h4>Navigation</h4>
@@ -126,8 +126,8 @@
                     <p><a href="contact.html">Contact Sales</a></p>
                 </div>
                 <div class="footer-contact">
-                    <h4>Headquarters</h4>
-                    <p>124 Industrial Parkway<br>Manufacturing District<br>TX 75001</p>
+                    <h4>Regional Offices</h4>
+                    <p><strong>UAE:</strong> Dubai Industrial City, Dubai</p>
                     <br>
                     <p>sales@clenvik.com</p>
                 </div>

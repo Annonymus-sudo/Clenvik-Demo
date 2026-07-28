@@ -86,13 +86,15 @@ nav { height: 80px; display: flex; align-items: center; justify-content: space-b
 .hero h1 span::after { content: ''; position: absolute; bottom: 8px; left: 0; width: 100%; height: 16px; background: var(--primary); z-index: -1; opacity: 0.6; transform: rotate(-1deg); }
 .hero-content > p { font-size: 1.2rem; max-width: 750px; margin: 24px auto 48px; color: var(--ink-light); }
 .hero-actions { display: flex; gap: 16px; justify-content: center; flex-wrap: wrap; margin-bottom: 80px; }
-.hero-image-wrap { position: relative; max-width: 800px; margin: 0 auto; border-radius: var(--radius); box-shadow: var(--shadow-hover); overflow: hidden; border: 1px solid var(--line); z-index: 2; }
-.hero-image-wrap img { width: 100%; height: auto; display: block; object-fit: cover; transition: transform 0.8s ease; }
-.hero-image-wrap:hover img { transform: scale(1.05); }
+.hero-image-wrap { position: relative; max-width: 900px; margin: 0 auto; border-radius: var(--radius); box-shadow: var(--shadow-hover); overflow: hidden; border: 1px solid var(--line); z-index: 2; display: grid; grid-template-columns: 2fr 1fr; grid-template-rows: 1fr 1fr; gap: 4px; background: var(--line); }
+.hero-image-wrap img { width: 100%; height: 100%; display: block; object-fit: cover; transition: transform 0.8s ease; }
+.hero-image-wrap .hero-img-main { grid-column: 1; grid-row: 1 / 3; }
+.hero-image-wrap .hero-img-sub { grid-column: 2; }
+.hero-image-wrap img:hover { transform: scale(1.05); z-index: 10; position: relative; }
 
 /* Value Props Banner */
 .value-props { background: var(--bg-main); padding: 80px 0; border-bottom: 1px solid var(--line); }
-.value-props-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 40px; text-align: center; }
+.value-props-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 40px; text-align: center; }
 .prop-card { display: flex; flex-direction: column; align-items: center; padding: 20px; transition: transform 0.3s ease; }
 .prop-card:hover { transform: translateY(-5px); }
 .prop-icon { width: 64px; height: 64px; background: var(--bg-alt); border: 1px solid var(--line); border-radius: 50%; display: grid; place-items: center; color: var(--ink); margin-bottom: 24px; transition: all 0.4s cubic-bezier(0.16, 1, 0.3, 1); }
@@ -147,7 +149,8 @@ nav { height: 80px; display: flex; align-items: center; justify-content: space-b
 .tech-row b { color: var(--ink); font-weight: 600; }
 
 .custom-tooling-banner { position: relative; padding: 120px 0; text-align: center; color: white; overflow: hidden; }
-.custom-tooling-banner .banner-bg { position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover; z-index: 1; }
+.custom-tooling-banner .banner-bg-grid { position: absolute; top: 0; left: 0; width: 100%; height: 100%; display: flex; z-index: 1; }
+.custom-tooling-banner .banner-bg-grid img { flex: 1; width: 33.333%; height: 100%; object-fit: cover; }
 .custom-tooling-banner .banner-overlay { position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: rgba(15, 23, 42, 0.85); z-index: 2; }
 .custom-tooling-banner .container { z-index: 3; position: relative; }
 .custom-tooling-banner h2 { color: white; font-size: 3rem; margin-bottom: 16px; }
