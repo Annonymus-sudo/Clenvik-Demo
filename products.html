@@ -42,7 +42,7 @@
             
             <div class="container stagger-up">
                 <h1>Product Catalog</h1>
-                <p style="font-size: 1.25rem; max-width: 600px; margin: 0 auto; color: var(--ink);">Precision engineering for your liquid, solid, and bulk packaging needs.</p>
+                <p class="catalog-hero-subtitle">Precision engineering for your liquid, solid, and bulk packaging needs.</p>
             </div>
         </section>
 
@@ -52,6 +52,13 @@
                 <aside class="catalog-sidebar">
                     <div class="sidebar-sticky">
                         <h3>Categories</h3>
+                        <select class="mobile-category-select" onchange="filterMobileCategories(this.value)">
+                            <option value="all">All Products</option>
+                            <option value="detergent">Detergent & Cleaning</option>
+                            <option value="personal-care">Personal Care</option>
+                            <option value="industrial-chemicals">Industrial Chemicals</option>
+                            <option value="automotive">Automotive Lubricants</option>
+                        </select>
                         <ul class="sidebar-nav">
                             <li><a href="#detergent" class="active">Detergent & Cleaning</a></li>
                             <li><a href="#personal-care">Personal Care</a></li>
@@ -572,6 +579,22 @@
                 }
             });
         });
+
+        function filterMobileCategories(category) {
+            const sections = document.querySelectorAll('.catalog-category');
+            if (category === 'all') {
+                sections.forEach(sec => sec.style.display = '');
+            } else {
+                sections.forEach(sec => {
+                    if (sec.getAttribute('id') === category) {
+                        sec.style.display = '';
+                        window.scrollTo({ top: sec.offsetTop - 100, behavior: 'smooth' });
+                    } else {
+                        sec.style.display = 'none';
+                    }
+                });
+            }
+        }
     </script>
 </body>
 </html>
