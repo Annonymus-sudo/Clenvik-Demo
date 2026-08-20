@@ -182,7 +182,7 @@ nav { height: 80px; display: flex; align-items: center; justify-content: space-b
 /* Facility Section */
 .facility-section {
   position: relative;
-  background-image: url('assets/Plant.png');
+  background-image: url('assets/1.jpg');
   background-size: cover;
   background-position: center left;
   padding: 100px 0;
