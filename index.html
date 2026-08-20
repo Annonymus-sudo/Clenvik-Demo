@@ -11,7 +11,7 @@
     
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Outfit:wght@500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
     
     <link rel="stylesheet" href="styles.css">
 </head>
@@ -38,85 +38,109 @@
     <main>
         
         <section id="home" class="hero">
-            <div class="hero-content stagger-up">
-                <span class="eyebrow">Enterprise Grade Packaging</span>
-                <h1>Premium Detergent Packaging.<br><span>Built for Scale</span>.</h1>
-                <p>High-performance plastic packaging solutions for the most demanding cosmetic, chemical, and industrial brands across the UAE. Specializing in 1L, 2L, and 3L capacities.</p>
-                <div class="hero-actions">
-                    <a href="#products" class="btn btn-primary">View Products</a>
-                    <a href="#contact" class="btn btn-secondary">Request Quote</a>
-                </div>
-                <div class="hero-product-lineup delay-200 stagger-up">
-                    <div class="hero-prod size-1l">
-                        <img src="assets/DetergentCleaning/1.jpg" alt="1L Container">
-                        <span class="label">1L</span>
+            <div class="blob blob-1"></div>
+            <div class="blob blob-2"></div>
+            
+            <div class="hero-content">
+                <div class="hero-text-col">
+                    <h1 class="stagger-up delay-100">Premium Packaging<br><span class="gradient-text underline-decor">Solutions</span>.</h1>
+                    <p class="stagger-up delay-200">High-performance plastic packaging solutions for the most demanding cosmetic, chemical, and industrial brands across the UAE.</p>
+                    <div class="hero-actions">
+                        <a href="#products" class="btn btn-primary">View Products</a>
+                        <a href="#contact" class="btn btn-secondary">Request Quote</a>
                     </div>
-                    <div class="hero-prod size-2l">
-                        <img src="assets/DetergentCleaning/1.jpg" alt="2L Container">
-                        <span class="label">2L</span>
-                    </div>
-                    <div class="hero-prod size-3l">
-                        <img src="assets/DetergentCleaning/1.jpg" alt="3L Container">
-                        <span class="label">3L</span>
+                    <div class="hero-trust-badges delay-200 stagger-up">
+                        <div class="hero-badge">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+                            <div>
+                                <strong>Enterprise Grade</strong>
+                                <span>Quality Materials</span>
+                            </div>
+                        </div>
+                        <div class="hero-badge">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"></circle><line x1="21" x2="16.65" y1="21" y2="16.65"></line></svg>
+                            <div>
+                                <strong>Custom Solutions</strong>
+                                <span>to Fit Your Brand</span>
+                            </div>
+                        </div>
+                        <div class="hero-badge">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+                            <div>
+                                <strong>Reliable Supply</strong>
+                                <span>Across the UAE</span>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
         </section>
 
         
-        <section id="facility" class="facility-section" style="background: var(--bg-main); padding-bottom: 0;">
-            <div class="container stagger-up">
-                <div class="section-head" style="margin-bottom: 40px;">
+        <section id="facility" class="facility-section">
+            <div class="facility-content">
+                <div class="facility-visual-col stagger-up">
+                    <div class="isometric-hero-wrapper isometric-facility-grid">
+                        <div class="isometric-hero-card card-main" style="height: 100%;">
+                            <img src="assets/M1.png" alt="High volume manufacturing facility" style="width: 100%; height: 100%; object-fit: cover; display: block; aspect-ratio: 4/3;">
+                        </div>
+                        <div class="isometric-hero-card card-sub" style="height: 100%;">
+                            <img src="assets/M2.png" alt="High speed filling line" style="width: 100%; height: 100%; object-fit: cover; display: block; aspect-ratio: 1/1;">
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="facility-text-col stagger-up delay-100">
                     <h2>State-of-the-Art Facility</h2>
                     <p>High-volume manufacturing, automated filling lines, and rigorous quality control.</p>
-                </div>
-                <div class="facility-image-wrap">
-                    <img src="assets/manufacturing_1.png" alt="High volume manufacturing facility" class="facility-img-main">
-                    <img src="assets/manufacturing_2.png" alt="High speed filling line" class="facility-img-sub">
-                    <img src="assets/manufacturing_3.png" alt="Quality control checking" class="facility-img-sub">
                 </div>
             </div>
         </section>
 
         <section class="value-props">
             <div class="container">
+                <div class="section-head stagger-up" style="margin-bottom: 50px;">
+                    <h2>Clenvik Quality Assurance</h2>
+                    <p>Rigorous multi-stage testing to ensure enterprise-grade reliability.</p>
+                </div>
                 <div class="value-props-grid">
                     <div class="prop-card stagger-up delay-100">
                         <div class="prop-icon">
                             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
                         </div>
-                        <h4>ISO Certified</h4>
-                        <p>Medical and food-grade compliant manufacturing facilities.</p>
+                        <h4>Raw Material Inspection</h4>
+                        <p>Strict verification of incoming polymers and additives.</p>
                     </div>
                     <div class="prop-card stagger-up delay-200">
                         <div class="prop-icon">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg>
                         </div>
-                        <h4>Custom Tooling</h4>
-                        <p>In-house mold design and rapid prototyping capabilities.</p>
+                        <h4>In-Process Quality Control</h4>
+                        <p>Continuous monitoring during the manufacturing cycle.</p>
                     </div>
                     <div class="prop-card stagger-up delay-300">
                         <div class="prop-icon">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="M7 15h0M2 9.5h20"/></svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2.69l5.66 5.66a8 8 0 1 1-11.31 0z"/></svg>
                         </div>
-                        <h4>Volume Logistics</h4>
-                        <p>Nationwide shipping across the UAE and optimized palletizing for enterprise orders.</p>
+                        <h4>Leak Proof Testing</h4>
+                        <p>Advanced pressure testing to guarantee 100% seal integrity.</p>
                     </div>
                     <div class="prop-card stagger-up delay-400">
                         <div class="prop-icon">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="1" y="3" width="15" height="13"></rect><polygon points="16 8 20 8 23 11 23 16 16 16 16 8"></polygon><circle cx="5.5" cy="18.5" r="2.5"></circle><circle cx="18.5" cy="18.5" r="2.5"></circle></svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
                         </div>
-                        <h4>Fast Deliveries in UAE</h4>
-                        <p>Rapid dispatch and delivery network covering all regions across the UAE.</p>
+                        <h4>Final Inspection Before Dispatch</h4>
+                        <p>Comprehensive visual and mechanical checks before shipping.</p>
                     </div>
                 </div>
             </div>
         </section>
 
         
+        <div class="products-to-contact-bg">
         <section id="products" class="category-section">
             <div class="container">
-                <div class="section-head stagger-up">
+                <div class="section-head text-left stagger-up">
                     <h2>Our Products</h2>
                     <p>Premium detergent containers engineered for durability and leak-proof performance.</p>
                 </div>
@@ -125,74 +149,57 @@
                     
                     <div class="catalog-card stagger-up delay-100">
                         <div class="catalog-img">
-                            <img src="assets/DetergentCleaning/1.jpg" alt="1L Detergent Container" style="transform: scale(0.85); transform-origin: bottom center;">
+                            <img src="assets/Products/2L-FabricSoftener.png" alt="2L Fabric Softener">
                         </div>
                         <div class="catalog-content">
-                            <h3>1L Detergent Container</h3>
-                            <p>Compact and robust packaging for standard household cleaning products.</p>
+                            <h3>2L Fabric Softener</h3>
+                            <p>Premium 2L container designed for fabric softener and delicate liquids.</p>
                         </div>
                     </div>
                     
                     <div class="catalog-card stagger-up delay-200">
                         <div class="catalog-img">
-                            <img src="assets/DetergentCleaning/1.jpg" alt="2L Detergent Container" style="transform: scale(0.95); transform-origin: bottom center;">
+                            <img src="assets/Products/2L-LaundryLiquid.png" alt="2L Laundry Liquid">
                         </div>
                         <div class="catalog-content">
-                            <h3>2L Detergent Container</h3>
-                            <p>Mid-size high-capacity container with ergonomic handle for easy pouring.</p>
+                            <h3>2L Laundry Liquid</h3>
+                            <p>Durable 2L bottle optimized for standard laundry detergents and cleaning liquids.</p>
                         </div>
                     </div>
                     
                     <div class="catalog-card stagger-up delay-300">
                         <div class="catalog-img">
-                            <img src="assets/DetergentCleaning/1.jpg" alt="3L Detergent Container" style="transform: scale(1.05); transform-origin: bottom center;">
+                            <img src="assets/Products/3L-FabricSoftener.png" alt="3L Fabric Softener">
                         </div>
                         <div class="catalog-content">
-                            <h3>3L Detergent Container</h3>
-                            <p>Heavy-duty bulk packaging solution for commercial and high-volume consumer use.</p>
+                            <h3>3L Fabric Softener</h3>
+                            <p>High-capacity 3L container with ergonomic grip for fabric care products.</p>
+                        </div>
+                    </div>
+
+                    <div class="catalog-card stagger-up delay-400">
+                        <div class="catalog-img">
+                            <img src="assets/Products/3L-FloorCleaner.png" alt="3L Floor Cleaner">
+                        </div>
+                        <div class="catalog-content">
+                            <h3>3L Floor Cleaner</h3>
+                            <p>Sturdy 3L packaging solution ideal for surface and floor cleaning agents.</p>
+                        </div>
+                    </div>
+
+                    <div class="catalog-card stagger-up delay-500">
+                        <div class="catalog-img">
+                            <img src="assets/Products/4L-JerryCan.png" alt="4L Jerry Can">
+                        </div>
+                        <div class="catalog-content">
+                            <h3>4L Jerry Can</h3>
+                            <p>Heavy-duty 4L jerry can for industrial and high-volume commercial chemical storage.</p>
                         </div>
                     </div>
                     
                 </div>
                 
-                <div class="specs-table-wrap stagger-up delay-400">
-                    <table class="specs-table">
-                        <thead>
-                            <tr>
-                                <th>Specification</th>
-                                <th>1L Container</th>
-                                <th>2L Container</th>
-                                <th>3L Container</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr>
-                                <td>Material</td>
-                                <td>HDPE (High-Density Polyethylene)</td>
-                                <td>HDPE (High-Density Polyethylene)</td>
-                                <td>HDPE (High-Density Polyethylene)</td>
-                            </tr>
-                            <tr>
-                                <td>Neck Size</td>
-                                <td>28mm</td>
-                                <td>38mm</td>
-                                <td>38mm</td>
-                            </tr>
-                            <tr>
-                                <td>Cap Type</td>
-                                <td>Screw Cap / Pump</td>
-                                <td>Measuring Cap</td>
-                                <td>Measuring Cap</td>
-                            </tr>
-                            <tr>
-                                <td>Colors</td>
-                                <td>Customizable (Pantone)</td>
-                                <td>Customizable (Pantone)</td>
-                                <td>Customizable (Pantone)</td>
-                            </tr>
-                        </tbody>
-                    </table>
-                </div>
+
             </div>
         </section>
 
@@ -228,7 +235,7 @@
                             </div>
                             <div class="trust-point stagger-up delay-300">
                                 <div class="trust-point-icon">
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="17 8 12 3 7 8"/><line x1="12" x2="12" y1="3" y2="15"/></svg>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="1" y="3" width="15" height="13"></rect><polygon points="16 8 20 8 23 11 23 16 16 16 16 8"></polygon><circle cx="5.5" cy="18.5" r="2.5"></circle><circle cx="18.5" cy="18.5" r="2.5"></circle></svg>
                                 </div>
                                 <div>
                                     <h4>UAE-Wide Shipping</h4>
@@ -249,18 +256,16 @@
                                 <input type="email" id="email" name="email" class="form-control" placeholder="purchasing@acme.com" required>
                             </div>
                             <div class="form-group">
-                                <label class="form-label">Container Sizes of Interest</label>
-                                <div class="checkbox-group">
-                                    <label class="checkbox-label">
-                                        <input type="checkbox" value="1L" name="sizes" class="custom-checkbox"> 1L
-                                    </label>
-                                    <label class="checkbox-label">
-                                        <input type="checkbox" value="2L" name="sizes" class="custom-checkbox"> 2L
-                                    </label>
-                                    <label class="checkbox-label">
-                                        <input type="checkbox" value="3L" name="sizes" class="custom-checkbox"> 3L
-                                    </label>
-                                </div>
+                                <label for="product_interest" class="form-label">Product of Interest</label>
+                                <select id="product_interest" name="product_interest" class="form-control" required>
+                                    <option value="" disabled selected>Select a product...</option>
+                                    <option value="2L Fabric Softener">2L Fabric Softener</option>
+                                    <option value="2L Laundry Liquid">2L Laundry Liquid</option>
+                                    <option value="3L Fabric Softener">3L Fabric Softener</option>
+                                    <option value="3L Floor Cleaner">3L Floor Cleaner</option>
+                                    <option value="4L Jerry Can">4L Jerry Can</option>
+                                    <option value="Multiple Products / Custom Setup">Multiple Products / Custom Setup</option>
+                                </select>
                             </div>
                             <div class="form-group">
                                 <label for="volume" class="form-label">Estimated Monthly Volume</label>
@@ -276,42 +281,55 @@
                                 <label for="message" class="form-label">Project Details (Optional)</label>
                                 <textarea id="message" name="message" class="form-control" rows="4" placeholder="Briefly describe the product, material requirements, or custom tooling needs..."></textarea>
                             </div>
-                            <button type="submit" class="btn btn-primary" style="width: 100%;">
+                            <button type="submit" class="btn btn-primary submit-btn-animated" style="width: 100%;">
                                 Submit Request
                                 <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="22" x2="11" y1="2" y2="13"/><polygon points="22 2 15 22 11 13 2 9 22 2"/></svg>
                             </button>
                         </form>
                     </div>
 
+        </div>
+        
+        <section class="pre-footer-cta" style="">
+            <div class="container">
+                <div class="cta-header-row stagger-up">
+                    <div class="cta-text">
+                        <h2>Visit <span>Clenvik</span></h2>
+                        <p>Experience premium plastic packaging solutions designed for durability and enterprise scale.</p>
+                    </div>
+                    <div class="cta-actions">
+                        <a href="https://www.google.com/maps/dir/?api=1&destination=Clenvik+International+Plastic+Manufacturing+LLC,+Fujairah" target="_blank" rel="noopener noreferrer" class="cta-btn cta-btn-primary">GET DIRECTIONS ↗</a>
+                    </div>
                 </div>
+            </div>
+            <div class="map-panorama stagger-up delay-100">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3612.882729931874!2d56.281116575346076!3d25.105830735395358!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ef4ffe05276013f%3A0x6c0eb172be8c8019!2sClenvik%20International%20Plastic%20Manufacturing%20LLC!5e0!3m2!1sen!2sin!4v1787242822846!5m2!1sen!2sin" width="100%" height="300" style="border:0; display: block;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
             </div>
         </section>
 
     </main>
 
-    <footer>
+    <footer class="minimal-footer">
         <div class="container">
-            <div class="footer-grid">
-                <div class="footer-brand">
-                    <img src="assets/clenvik-logo.png" alt="Clenvik Logo" height="40" style="margin-bottom: 16px;">
-                    <p>Engineering premium plastic packaging solutions for UAE enterprise clients since 2010.</p>
+            <div class="footer-main-row">
+                <div class="footer-social">
+                    <a href="#" aria-label="X (Twitter)">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+                    </a>
+                    <a href="#" aria-label="LinkedIn">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>
+                    </a>
                 </div>
-                <div class="footer-links">
-                    <h4>Navigation</h4>
-                    <p><a href="#home">Home</a></p>
-                    <p><a href="#products">Products</a></p>
-                    <p><a href="#contact">Contact Sales</a></p>
-                </div>
-                <div class="footer-contact">
-                    <h4>Regional Offices</h4>
-                    <p><strong>UAE:</strong> Dubai Industrial City, Dubai</p>
-                    <br>
-                    <p>sales@clenvik.com</p>
+                <div class="footer-logo">
+                    <img src="assets/clenvik-logo.png" alt="Clenvik Logo" height="32">
                 </div>
             </div>
-            <div class="copyright">
-                <p>&copy; <span id="year"></span> Clenvik Manufacturing. All rights reserved.</p>
-                <p>ISO 9001:2015 Certified</p>
+            <div class="footer-copyright-row">
+                <p>Copyright &copy; <span id="year"></span> Clenvik Manufacturing</p>
+                <a href="https://viz38.github.io" target="_blank" rel="noopener noreferrer" class="made-with-love">Made with ❤️ in UAE</a>
+                <div class="footer-legal">
+                    <a href="#">ISO 9001:2015</a>
+                </div>
             </div>
         </div>
     </footer>
@@ -366,7 +384,7 @@
                 `Project Details:\n${message}`
             );
             
-            window.location.href = `mailto:info@clenvik.com?subject=${subject}&body=${body}`;
+            window.location.href = `mailto:info@clenvikint.com?subject=${subject}&body=${body}`;
         }
     </script>
 </body>
